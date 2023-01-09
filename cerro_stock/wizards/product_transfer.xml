@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- wizard.product.product.transfer_between_states form view and action -->
+    <record id="wizard_product_product_transfer_between_states_form" model="ir.ui.view">
+        <field name="name">wizard.product.product.transfer_between_states.form</field>
+        <field name="model">wizard.product.product.transfer_between_states</field>
+        <field name="arch" type="xml">
+            <form string="Transfer Products Between States">
+                <group>
+                    <field name="product_id" required="1" />
+                    <field name="from_state" required="1" />
+                    <field name="to_state" required="1" />
+                    <field name="quantity" required="1" />
+                </group>
+                <footer>
+                    <button string="Transfer" type="object" name="transfer_between_states" class="oe_highlight" />
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="wizard_product_product_transfer_between_states_action" model="ir.actions.act_window">
+        <field name="name">Transfer Products Between States</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">wizard.product.product.transfer_between_states</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="view_id" ref="wizard_product_product_transfer_between_states_form" />
+    </record>
+
+</odoo>

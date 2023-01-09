@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- product.template -->
+    <record id="product_template_form_view" model="ir.ui.view">
+        <field name="name">product.template.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view" />
+        <field name="arch" type="xml">
+            <header position="inside">
+                <button string="Transfer between states" name="transfer_between_states"
+                    type="object" class="oe_highlight" />
+            </header>
+            <xpath expr="//page[@name='inventory']/group[1]" position="before">
+                <group name="product_state" string="Product state" colspan="2">
+                    <field name="product_good_state_qty" />
+                    <field name="product_regular_state_qty" />
+                    <field name="product_bad_state_qty" />
+                    <field name="product_lost_state_qty" />
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

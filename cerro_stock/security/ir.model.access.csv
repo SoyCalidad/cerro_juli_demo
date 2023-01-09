@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_wizard_product_product_transfer_between_states,wizard_product_product_transfer_between_states,model_wizard_product_product_transfer_between_states,stock.group_stock_user,1,1,1,1
+access_wizard_cerro_stock,wizard_cerro_stock,model_wizard_cerro_stock,stock.group_stock_user,1,1,1,1

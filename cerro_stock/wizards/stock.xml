@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- wizard.cerro_stock form view and action -->
+    <record id="cerro_stock_view_form" model="ir.ui.view">
+        <field name="name">cerro.stock.view.form</field>
+        <field name="model">wizard.cerro_stock</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="from_date" attrs="{'invisible': [('type', 'not in', ('report_7', 'report_8'))]}" />
+                    <field name="to_date" attrs="{'invisible': [('type', 'not in', ('report_7', 'report_8'))]}"/>
+                    <field name="product_ids" attrs="{'invisible': [('type', 'not in', ('report_7', 'report_8'))]}"/>
+                    <field name="type" invisible="1" />
+                </group>
+                <footer>
+                    <button string="Print" class="oe_highlight" type="object" name="print_report" />
+                    <button string="Close" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="cerro_stock_report_1_action" model="ir.actions.act_window">
+        <field name="name">Total stock</field>
+        <field name="res_model">wizard.cerro_stock</field>
+        <field name="view_id" ref="cerro_stock_view_form" />
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_type': 'report_1'}</field>
+    </record>
+
+    <record id="cerro_stock_report_2_action" model="ir.actions.act_window">
+        <field name="name">Stock by state</field>
+        <field name="res_model">wizard.cerro_stock</field>
+        <field name="view_id" ref="cerro_stock_view_form" />
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_type': 'report_2'}</field>
+    </record>
+
+    <record id="cerro_stock_report_3_action" model="ir.actions.act_window">
+        <field name="name">Stock by warehouse</field>
+        <field name="res_model">wizard.cerro_stock</field>
+        <field name="view_id" ref="cerro_stock_view_form" />
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_type': 'report_3'}</field>
+    </record>
+
+    <record id="cerro_stock_report_4_action" model="ir.actions.act_window">
+        <field name="name">Stock by warehouse/location</field>
+        <field name="res_model">wizard.cerro_stock</field>
+        <field name="view_id" ref="cerro_stock_view_form" />
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_type': 'report_4'}</field>
+    </record>
+
+    <record id="cerro_stock_report_5_action" model="ir.actions.act_window">
+        <field name="name">Lost stock</field>
+        <field name="res_model">wizard.cerro_stock</field>
+        <field name="view_id" ref="cerro_stock_view_form" />
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_type': 'report_5'}</field>
+    </record>
+
+    <record id="cerro_stock_report_6_action" model="ir.actions.act_window">
+        <field name="name">Saleable stock</field>
+        <field name="res_model">wizard.cerro_stock</field>
+        <field name="view_id" ref="cerro_stock_view_form" />
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_type': 'report_6'}</field>
+    </record>
+
+    <record id="cerro_stock_report_7_action" model="ir.actions.act_window">
+        <field name="name">Stock moves</field>
+        <field name="res_model">wizard.cerro_stock</field>
+        <field name="view_id" ref="cerro_stock_view_form" />
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_type': 'report_7'}</field>
+    </record>
+
+    <record id="cerro_stock_report_8_action" model="ir.actions.act_window">
+        <field name="name">Stock internal moves</field>
+        <field name="res_model">wizard.cerro_stock</field>
+        <field name="view_id" ref="cerro_stock_view_form" />
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_type': 'report_8'}</field>
+    </record>
+
+</odoo>

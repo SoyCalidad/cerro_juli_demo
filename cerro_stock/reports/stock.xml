@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="action_report_cerro_stock_report_1" model="ir.actions.report">
+        <field name="name">Total stock</field>
+        <field name="model">wizard.cerro_stock</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">report_cerro_stock</field>
+        <field name="report_file">report_cerro_stock</field>
+        <field name="print_report_name">'Stock report without lost'</field>
+        <field name="binding_model_id" ref="model_wizard_cerro_stock"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <record id="action_report_cerro_stock_report_2" model="ir.actions.report">
+        <field name="name">Stock by state</field>
+        <field name="model">wizard.cerro_stock</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">report_cerro_stock</field>
+        <field name="report_file">report_cerro_stock</field>
+        <field name="print_report_name">'Stock report by state'</field>
+        <field name="binding_model_id" ref="model_wizard_cerro_stock"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <record id="action_report_cerro_stock_report_3" model="ir.actions.report">
+        <field name="name">Stock by warehouse</field>
+        <field name="model">wizard.cerro_stock</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">report_cerro_stock</field>
+        <field name="report_file">report_cerro_stock</field>
+        <field name="print_report_name">'Stock report by location'</field>
+        <field name="binding_model_id" ref="model_wizard_cerro_stock"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <record id="action_report_cerro_stock_report_4" model="ir.actions.report">
+        <field name="name">Stock by warehouse/location</field>
+        <field name="model">wizard.cerro_stock</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">report_cerro_stock</field>
+        <field name="report_file">report_cerro_stock</field>
+        <field name="print_report_name">'Stock report only lost'</field>
+        <field name="binding_model_id" ref="model_wizard_cerro_stock"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <record id="action_report_cerro_stock_report_5" model="ir.actions.report">
+        <field name="name">Lost stock</field>
+        <field name="model">wizard.cerro_stock</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">report_cerro_stock</field>
+        <field name="report_file">report_cerro_stock</field>
+        <field name="print_report_name">'Stock report without lost'</field>
+        <field name="binding_model_id" ref="model_wizard_cerro_stock"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <record id="action_report_cerro_stock_report_6" model="ir.actions.report">
+        <field name="name">Saleable stock</field>
+        <field name="model">wizard.cerro_stock</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">report_cerro_stock</field>
+        <field name="report_file">report_cerro_stock</field>
+        <field name="print_report_name">'Stock report only saleables'</field>
+        <field name="binding_model_id" ref="model_wizard_cerro_stock"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <record id="action_report_cerro_stock_report_7" model="ir.actions.report">
+        <field name="name">Stock moves</field>
+        <field name="model">wizard.cerro_stock</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">report_cerro_stock</field>
+        <field name="report_file">report_cerro_stock</field>
+        <field name="print_report_name">'Stock report moves by date and products'</field>
+        <field name="binding_model_id" ref="model_wizard_cerro_stock"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <record id="action_report_cerro_stock_report_8" model="ir.actions.report">
+        <field name="name">Stock internal moves</field>
+        <field name="model">wizard.cerro_stock</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">report_cerro_stock</field>
+        <field name="report_file">report_cerro_stock</field>
+        <field name="print_report_name">'Stock report internal moves'</field>
+        <field name="binding_model_id" ref="model_wizard_cerro_stock"/>
+        <field name="binding_type">report</field>
+    </record>
+        
+</odoo>

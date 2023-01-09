@@ -1,0 +1,27 @@
+{
+    'name': 'Stock module customizations for Cerro Juli',
+    'version': '1.0',
+    'description': 'Stock module customizations for Cerro Juli',
+    'summary': 'Stock module customizations for Cerro Juli',
+    'author': 'Soy Calidad',
+    'website': 'https://www.soycalidad.com/',
+    'license': 'Other proprietary',
+    'category': 'cerro',
+    'depends': [
+        'stock',
+        'hr',
+        'report_xlsx',
+    ],
+    'data': [
+        'data/stock.xml',
+        'security/ir.model.access.csv',
+        'views/product.xml',
+        'views/stock.xml',
+        'wizards/product_transfer.xml',
+        'wizards/stock.xml',
+        'wizards/menus.xml',
+        'reports/stock.xml',
+    ],
+    'auto_install': False,
+    'application': False,
+}

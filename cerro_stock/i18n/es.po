@@ -1,0 +1,442 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cerro_stock
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20221226\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-09 13:32+0000\n"
+"PO-Revision-Date: 2023-01-09 13:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_product_product_transfer_between_states__from_state__bad
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_product_product_transfer_between_states__to_state__bad
+msgid "Bad"
+msgstr "Malo"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_stock_move__product_bad_state_qty
+msgid "Bad State Quantity"
+msgstr "Cantidad en mal estado"
+
+#. module: cerro_stock
+#: model_terms:ir.ui.view,arch_db:cerro_stock.view_stock_move_state_qtys_form
+#: model_terms:ir.ui.view,arch_db:cerro_stock.wizard_product_product_transfer_between_states_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: cerro_stock
+#: model:ir.ui.menu,name:cerro_stock.cerro_stock_menu
+msgid "Cerro Juli Reports"
+msgstr "Reportes Cerro Juli"
+
+#. module: cerro_stock
+#: model_terms:ir.ui.view,arch_db:cerro_stock.cerro_stock_view_form
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: cerro_stock
+#: model_terms:ir.ui.view,arch_db:cerro_stock.view_stock_move_state_qtys_form
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock__create_uid
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock__create_date
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/models/stock.py:0
+#, python-format
+msgid "Detailed Operations"
+msgstr ""
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock__display_name
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: cerro_stock
+#: model_terms:ir.ui.view,arch_db:cerro_stock.view_picking_form
+msgid "Fix quantities"
+msgstr "Establecer cantidades por estado"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock__from_date
+msgid "From Date"
+msgstr "Desde fecha"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states__from_state
+msgid "From State"
+msgstr "Estado de origen"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/wizards/product_transfer.py:0
+#, python-format
+msgid "From state and to state cannot be the same."
+msgstr "El estado de origen y el estado de destino no pueden ser el mismo."
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_product_product_transfer_between_states__from_state__good
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_product_product_transfer_between_states__to_state__good
+msgid "Good"
+msgstr "Bueno"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_stock_move__product_good_state_qty
+msgid "Good State Quantity"
+msgstr "Cantidad en buen estado"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock__id
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states__id
+msgid "ID"
+msgstr ""
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock____last_update
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock__write_uid
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock__write_date
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_product_product_transfer_between_states__from_state__lost
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_product_product_transfer_between_states__to_state__lost
+msgid "Lost"
+msgstr "Perdido"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_stock_move__product_lost_state_qty
+msgid "Lost State Quantity"
+msgstr "Cantidad en estado perdido"
+
+#. module: cerro_stock
+#: model:ir.actions.act_window,name:cerro_stock.cerro_stock_report_5_action
+#: model:ir.actions.report,name:cerro_stock.action_report_cerro_stock_report_5
+#: model:ir.ui.menu,name:cerro_stock.cerro_stock_report_5_menu
+msgid "Lost stock"
+msgstr "Perdidos"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_stock_picking__petitioner_id
+msgid "Petitioner"
+msgstr "Solicitante"
+
+#. module: cerro_stock
+#: model_terms:ir.ui.view,arch_db:cerro_stock.cerro_stock_view_form
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_product_product__product_bad_state_qty
+#: model:ir.model.fields,field_description:cerro_stock.field_product_template__product_bad_state_qty
+msgid "Product Bad State"
+msgstr "Cantidad en estado malo"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_product_product__product_good_state_qty
+#: model:ir.model.fields,field_description:cerro_stock.field_product_template__product_good_state_qty
+msgid "Product Good State"
+msgstr "Cantidad en estado bueno"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_product_product__product_lost_state_qty
+#: model:ir.model.fields,field_description:cerro_stock.field_product_template__product_lost_state_qty
+msgid "Product Lost State"
+msgstr "Cantidad en estado perdido"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_product_product__product_regular_state_qty
+#: model:ir.model.fields,field_description:cerro_stock.field_product_template__product_regular_state_qty
+msgid "Product Regular State"
+msgstr "Cantidad en estado regular"
+
+#. module: cerro_stock
+#: model:ir.model,name:cerro_stock.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: cerro_stock
+#: model_terms:ir.ui.view,arch_db:cerro_stock.product_template_form_view
+msgid "Product state"
+msgstr "Estado del producto"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock__product_ids
+msgid "Products"
+msgstr "Productos"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_product_product_transfer_between_states__from_state__regular
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_product_product_transfer_between_states__to_state__regular
+msgid "Regular"
+msgstr "Regular"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_stock_move__product_regular_state_qty
+msgid "Regular State Quantity"
+msgstr "Cantidad en estado regular"
+
+#. module: cerro_stock
+#: model:ir.actions.act_window,name:cerro_stock.cerro_stock_report_6_action
+#: model:ir.actions.report,name:cerro_stock.action_report_cerro_stock_report_6
+#: model:ir.ui.menu,name:cerro_stock.cerro_stock_report_6_menu
+msgid "Saleable stock"
+msgstr "Inventario alquilable"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_product_product__shelf
+#: model:ir.model.fields,field_description:cerro_stock.field_product_template__shelf
+msgid "Shelf"
+msgstr "Anaquel"
+
+#. module: cerro_stock
+#: model:ir.model,name:cerro_stock.model_stock_move
+msgid "Stock Move"
+msgstr "Movimiento de existencias"
+
+#. module: cerro_stock
+#: model:ir.actions.act_window,name:cerro_stock.cerro_stock_report_2_action
+#: model:ir.actions.report,name:cerro_stock.action_report_cerro_stock_report_2
+#: model:ir.ui.menu,name:cerro_stock.cerro_stock_report_2_menu
+msgid "Stock by state"
+msgstr "Existencias por estado"
+
+#. module: cerro_stock
+#: model:ir.actions.act_window,name:cerro_stock.cerro_stock_report_3_action
+#: model:ir.actions.report,name:cerro_stock.action_report_cerro_stock_report_3
+#: model:ir.ui.menu,name:cerro_stock.cerro_stock_report_3_menu
+msgid "Stock by warehouse"
+msgstr "Existencias por almacén"
+
+#. module: cerro_stock
+#: model:ir.actions.act_window,name:cerro_stock.cerro_stock_report_4_action
+#: model:ir.actions.report,name:cerro_stock.action_report_cerro_stock_report_4
+#: model:ir.ui.menu,name:cerro_stock.cerro_stock_report_4_menu
+msgid "Stock by warehouse/location"
+msgstr "Existencias por almacén/localización"
+
+#. module: cerro_stock
+#: model:ir.actions.act_window,name:cerro_stock.cerro_stock_report_8_action
+#: model:ir.actions.report,name:cerro_stock.action_report_cerro_stock_report_8
+#: model:ir.ui.menu,name:cerro_stock.cerro_stock_report_8_menu
+msgid "Stock internal moves"
+msgstr "Movimientos internos"
+
+#. module: cerro_stock
+#: model:ir.actions.act_window,name:cerro_stock.cerro_stock_report_7_action
+#: model:ir.actions.report,name:cerro_stock.action_report_cerro_stock_report_7
+#: model:ir.ui.menu,name:cerro_stock.cerro_stock_report_7_menu
+msgid "Stock moves"
+msgstr "Movimientos"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/reports/stock.py:0
+#, python-format
+msgid "Stock report by location"
+msgstr "Reporte de existencias por ubicación"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/reports/stock.py:0
+#, python-format
+msgid "Stock report by location and zone"
+msgstr "Reporte de existencias por ubicación y zona"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/reports/stock.py:0
+#, python-format
+msgid "Stock report by state"
+msgstr "Reporte de existencias por estado"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/reports/stock.py:0
+#, python-format
+msgid "Stock report internal moves"
+msgstr "Reporte de movimientos internos"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/reports/stock.py:0
+#, python-format
+msgid "Stock report moves by date and products"
+msgstr "Reporte de movimientos por fecha y productos"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/reports/stock.py:0
+#, python-format
+msgid "Stock report only lost"
+msgstr "Reporte de existencias solo perdidos"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/reports/stock.py:0
+#, python-format
+msgid "Stock report only saleable"
+msgstr "Reporte de existencias solo alquilables"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/reports/stock.py:0
+#, python-format
+msgid "Stock report without lost"
+msgstr "Reporte de existencias sin perdidos"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/models/product.py:0
+#, python-format
+msgid "The sum of all states cannot be greater than the available quantity."
+msgstr "La suma de todos los estados no puede ser mayor que la cantidad disponible."
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock__to_date
+msgid "To Date"
+msgstr "Hasta"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_product_product_transfer_between_states__to_state
+msgid "To State"
+msgstr "Estado destino"
+
+#. module: cerro_stock
+#: model:ir.actions.act_window,name:cerro_stock.cerro_stock_report_1_action
+#: model:ir.actions.report,name:cerro_stock.action_report_cerro_stock_report_1
+#: model:ir.ui.menu,name:cerro_stock.cerro_stock_report_1_menu
+msgid "Total stock"
+msgstr "Existencias totales"
+
+#. module: cerro_stock
+#: model:ir.model,name:cerro_stock.model_stock_picking
+#: model_terms:ir.ui.view,arch_db:cerro_stock.wizard_product_product_transfer_between_states_form
+msgid "Transfer"
+msgstr "Albarán"
+
+#. module: cerro_stock
+#: model:ir.actions.act_window,name:cerro_stock.wizard_product_product_transfer_between_states_action
+#: model:ir.ui.menu,name:cerro_stock.wizard_product_product_transfer_between_states_menu
+#: model_terms:ir.ui.view,arch_db:cerro_stock.wizard_product_product_transfer_between_states_form
+msgid "Transfer Products Between States"
+msgstr "Transferir productos entre estados"
+
+#. module: cerro_stock
+#: model_terms:ir.ui.view,arch_db:cerro_stock.product_template_form_view
+msgid "Transfer between states"
+msgstr "Transferir entre estados"
+
+#. module: cerro_stock
+#: model:ir.model.fields,field_description:cerro_stock.field_wizard_cerro_stock__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: cerro_stock
+#: model:ir.model,name:cerro_stock.model_wizard_product_product_transfer_between_states
+msgid "Wizard Product Product Transfer Between States"
+msgstr "Transferir productos entre estados"
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/wizards/product_transfer.py:0
+#, python-format
+msgid "You cannot transfer more product than the quantity in bad state."
+msgstr "No puede transferir más productos de los que hay en mal estado."
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/wizards/product_transfer.py:0
+#, python-format
+msgid "You cannot transfer more product than the quantity in good state."
+msgstr "No puede transferir más productos de los que hay en buen estado."
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/wizards/product_transfer.py:0
+#, python-format
+msgid "You cannot transfer more product than the quantity in lost state."
+msgstr "No puede transferir más productos de los que hay en perdido."
+
+#. module: cerro_stock
+#: code:addons/cerro_stock/wizards/product_transfer.py:0
+#, python-format
+msgid "You cannot transfer more product than the quantity in regular state."
+msgstr "No puede transferir más productos de los que hay en regular."
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_cerro_stock__type__report_1
+msgid "report 1"
+msgstr "reporte 1"
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_cerro_stock__type__report_2
+msgid "report 2"
+msgstr "reporte 2"
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_cerro_stock__type__report_3
+msgid "report 3"
+msgstr "reporte 3"
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_cerro_stock__type__report_4
+msgid "report 4"
+msgstr "reporte 4"
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_cerro_stock__type__report_5
+msgid "report 5"
+msgstr "reporte 5"
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_cerro_stock__type__report_6
+msgid "report 6"
+msgstr "reporte 6"
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_cerro_stock__type__report_7
+msgid "report 7"
+msgstr "reporte 7"
+
+#. module: cerro_stock
+#: model:ir.model.fields.selection,name:cerro_stock.selection__wizard_cerro_stock__type__report_8
+msgid "report 8"
+msgstr "reporte 8"
+
+#. module: cerro_stock
+#: model:ir.model,name:cerro_stock.model_report_report_cerro_stock
+msgid "report.report_cerro_stock"
+msgstr ""
+
+#. module: cerro_stock
+#: model:ir.model,name:cerro_stock.model_wizard_cerro_stock
+msgid "wizard.cerro_stock"
+msgstr ""

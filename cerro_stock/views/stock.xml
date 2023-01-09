@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- stock.picking inherit -->
+    <record id="view_picking_form" model="ir.ui.view">
+        <field name="name">stock.picking.form</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form" />
+        <field name="arch" type="xml">
+            <button name="action_show_details" position="after">
+                <button string="Fix quantities" name="action_show_state_qtys"
+                    type="object" class="oe_highlight" />
+            </button>
+        </field>
+    </record>
+
+    <!-- stock.move form view -->
+    <record id="view_stock_move_state_qtys_form" model="ir.ui.view">
+        <field name="name">stock.move.view.form</field>
+        <field name="model">stock.move</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <field name="product_good_state_qty" />
+                        <field name="product_regular_state_qty" />
+                        <field name="product_bad_state_qty" />
+                        <field name="product_lost_state_qty" />
+                    </group>
+                </sheet>
+                <footer>
+                    <button string="Confirm" class="oe_highlight" special="save"/>
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>

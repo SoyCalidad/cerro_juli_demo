@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="wizard_product_product_transfer_between_states_menu"
+        name="Transfer Products Between States"
+        action="wizard_product_product_transfer_between_states_action"
+        groups="stock.group_stock_user"
+        parent="stock.menu_stock_config_settings"
+        sequence="10" />
+
+    <!-- Cerro Stock Reports -->
+
+    <menuitem id="cerro_stock_menu" name="Cerro Juli Reports" parent="stock.menu_warehouse_report"
+        sequence="5" />
+
+    <menuitem id="cerro_stock_report_1_menu" name="Total stock" parent="cerro_stock_menu"
+        action="cerro_stock_report_1_action" sequence="1" />
+    <menuitem id="cerro_stock_report_2_menu" name="Stock by state" parent="cerro_stock_menu"
+        action="cerro_stock_report_2_action" sequence="2" />
+    <menuitem id="cerro_stock_report_3_menu" name="Stock by warehouse" parent="cerro_stock_menu"
+        action="cerro_stock_report_3_action" sequence="3" />
+    <menuitem id="cerro_stock_report_4_menu" name="Stock by warehouse/location"
+        parent="cerro_stock_menu"
+        action="cerro_stock_report_4_action" sequence="4" />
+    <menuitem id="cerro_stock_report_5_menu" name="Lost stock" parent="cerro_stock_menu"
+        action="cerro_stock_report_5_action" sequence="5" />
+    <menuitem id="cerro_stock_report_6_menu" name="Saleable stock" parent="cerro_stock_menu"
+        action="cerro_stock_report_6_action" sequence="6" />
+    <menuitem id="cerro_stock_report_7_menu" name="Stock moves" parent="cerro_stock_menu"
+        action="cerro_stock_report_7_action" sequence="7" />
+    <menuitem id="cerro_stock_report_8_menu" name="Stock internal moves" parent="cerro_stock_menu"
+        action="cerro_stock_report_8_action" sequence="8" />
+
+</odoo>

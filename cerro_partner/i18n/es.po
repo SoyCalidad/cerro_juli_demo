@@ -1,0 +1,72 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cerro_partner
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20221226\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-05 03:44+0000\n"
+"PO-Revision-Date: 2023-01-05 03:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cerro_partner
+#: model:ir.model.fields,field_description:cerro_partner.field_res_partner__area_id
+#: model:ir.model.fields,field_description:cerro_partner.field_res_users__area_id
+msgid "Area"
+msgstr "Área"
+
+#. module: cerro_partner
+#: model:ir.model,name:cerro_partner.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: cerro_partner
+#: model:ir.model.fields,field_description:cerro_partner.field_res_partner_area__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: cerro_partner
+#: model:ir.model.fields,field_description:cerro_partner.field_res_partner_area__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: cerro_partner
+#: model:ir.model.fields,field_description:cerro_partner.field_res_partner_area__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: cerro_partner
+#: model:ir.model.fields,field_description:cerro_partner.field_res_partner_area__id
+msgid "ID"
+msgstr "ID"
+
+#. module: cerro_partner
+#: model:ir.model.fields,field_description:cerro_partner.field_res_partner_area____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: cerro_partner
+#: model:ir.model.fields,field_description:cerro_partner.field_res_partner_area__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: cerro_partner
+#: model:ir.model.fields,field_description:cerro_partner.field_res_partner_area__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: cerro_partner
+#: model:ir.model.fields,field_description:cerro_partner.field_res_partner_area__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: cerro_partner
+#: model:ir.model,name:cerro_partner.model_res_partner_area
+msgid "Partner Area"
+msgstr "Área de Contacto"
