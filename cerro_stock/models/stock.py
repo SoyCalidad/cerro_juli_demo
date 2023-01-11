@@ -14,6 +14,7 @@ class StockPicking(models.Model):
         for move in self.move_lines:
             if not move.move_state_validation:
                 if move.location_dest_id.id == self.env.ref('cerro_stock.stock_location_events').id:
+                    print(move.product_id.product_good_state_qty)
                     move.product_id.product_good_state_qty -= move.product_good_state_qty
                     move.product_id.product_regular_state_qty -= move.product_regular_state_qty
                     move.product_id.product_bad_state_qty -= move.product_bad_state_qty
